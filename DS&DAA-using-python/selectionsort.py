@@ -9,15 +9,5 @@ for i in range(n):
 print("Unsorted array\n",arr)
 
 #main stetment where shorting perform
-for i in range(1,n):
-    value = arr[i]
-    hole = i
-
-    while(hole>0 and arr[hole-1]>value):
-        arr[hole] = arr[hole-1]
-        hole = hole-1
-
-    arr[hole] = value
-
-#printing unsorted array
-print("Sorted array\n",arr)    
+for i in range(0,n-1):
+    pass
