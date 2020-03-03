@@ -1,1 +1,0 @@
-/*main stetment where shorting perform */
